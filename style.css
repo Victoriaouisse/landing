@@ -1,0 +1,62 @@
+/* Write some CSS below */
+/* style.css */
+h1 {
+  font-family: var();
+  color: lightcoral;
+  font-weight: bold;
+  text-decoration:overline underline;
+  transition: .3s;
+  text-align: center;
+}
+
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/IMG_4380.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+a {
+  color: lightsalmon;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+p {
+  font-family: monospace;
+  color: darkslategrey;
+  font-weight:unset;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+ 
+}
+img{
+	width: 300px;
+}
+
+.card{
+	text-align: center;
+
+}
+
+.cards{
+  margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+}
+
+a:hover {
+  color: #CE2FAE;
+}
